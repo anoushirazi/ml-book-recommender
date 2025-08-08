@@ -4,6 +4,12 @@
 
 ---
 
+# Introduction
+
+![Demo Preview](https://github.com/anoushirazi/ml-book-recommender/edit/main/Demo.gif)
+
+---
+
 ## 📘 Project Overview
 
 Discovering the right book can be overwhelming with millions of titles available. **`ml-book-recommender`** solves this by delivering highly personalized book suggestions based on user preferences, book content, and global popularity trends.
