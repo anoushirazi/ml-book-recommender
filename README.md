@@ -101,7 +101,7 @@ streamlit run app/main.py
 
 ```
 
-## ml-book-recommender/
+## 📂 Project Structure
 
 ```bash
 ├── README.md                     # Project overview and usage instructions
