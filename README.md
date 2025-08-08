@@ -104,7 +104,6 @@ streamlit run app/app.py
 ## 📂 Main Project Structure
 
 ```bash
-<!-- 🗂️ Main Project Structure -->
 ml-book-recommender/                 <!-- Root project folder -->
 ├── README.md                       <!-- Project overview and instructions -->
 ├── requirements.txt                <!-- Python dependencies list -->
