@@ -145,7 +145,7 @@ ml-book-recommender/                   # Root project folder
         ├── popularity_based.py 
         └── hybrid_model.py     
 
-<!-- 🚀 Application & Assets -->
+  Application & Assets 
 📱 app/                                 # Streamlit app folder 
 ├── app.py                              # Main Streamlit app entry
 ├── components/                         # UI components 
