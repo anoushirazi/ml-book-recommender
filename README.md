@@ -154,9 +154,10 @@ ml-book-recommender/                   # Root project folder
 │   ├── sidebar.py                      # Sidebar component 
 │   ├── recommendation_display.py       #  Show recommendations 
 │   └── evaluation_display.py           #  Show evaluation metrics 
-└── assets/                             #  Static assets 
-    ├── style.css                       #  Styling 
-    └── logo.png                        # Logo image 
+└── assets/
+    ├── Streamlit-web-app.png            #  Streamlit platform shot
+    ├── Streamlit_Demo.rar               #  Streamlit demo archive
+    └── project presentation             # Streamlit project presentation slides 
 
 🤖 models/                             #  Saved model files 
 ├── svd_model.pkl              
