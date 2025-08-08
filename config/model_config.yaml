@@ -1,0 +1,15 @@
+model:
+  collaborative_filtering:
+    method: SVD
+    latent_factors: 50
+  content_based:
+    vectorizer: TF-IDF
+    similarity_metric: cosine
+  hybrid:
+    weights:
+      collaborative: 0.4
+      content: 0.3
+      popularity: 0.3
+evaluation:
+  metric: RMSE
+  sample_size: 7000

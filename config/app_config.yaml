@@ -1,0 +1,11 @@
+app:
+  name: AI-Book-Recommender
+  interface: streamlit
+  features:
+    - recommend_by_user
+    - recommend_by_book
+    - evaluate_rmse
+    - show_visualizations
+output:
+  save_plots: true
+  plots_dir: visualizations/

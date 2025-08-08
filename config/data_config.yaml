@@ -1,0 +1,11 @@
+data:
+  books_path: data/books.csv
+  users_path: data/users.csv
+  ratings_path: data/ratings.csv
+cleaning:
+  drop_duplicates: true
+  fill_missing:
+    publisher: "Unknown"
+    book_title: ""
+  valid_age_range: [5, 100]
+  valid_year_range: [1900, 2025]
