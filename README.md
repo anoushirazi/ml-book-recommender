@@ -124,7 +124,8 @@ ml-book-recommender/                   # Root project folder
 │       ├── sample_users.csv     
 │       └── sample_ratings.csv   
 
-├── 📓 notebooks/                      # Jupyter notebooks for exploration & modeling 
+├── 📓 notebooks/
+    ├── 00_main.ipynb                   # Jupyter notebooks for exploration & modeling 
 │   ├── 01_data_exploration.ipynb   
 │   ├── 02_data_preprocessing.ipynb  
 │   ├── 03_model_development.ipynb   
@@ -135,7 +136,7 @@ ml-book-recommender/                   # Root project folder
     ├── __init__.py                     #  Package init 
     ├── data/                           #  Data handling modules 
     │   ├── __init__.py        
-    │   ├── data_loader.py              #  Load data scripts 
+    │   ├── data_loader.py               #  Load data scripts 
     │   ├── data_cleaner.py              # Cleaning scripts 
     │   └── data_preprocessor.py         # Preprocessing scripts
     └── models/                          #  Model implementations 
