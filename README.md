@@ -97,7 +97,7 @@ cd ml-book-recommender
 pip install -r requirements.txt
 
 # Run Streamlit app
-streamlit run app/__Streamlit.py__/app.py
+streamlit run app/app.py
 
 ```
 
