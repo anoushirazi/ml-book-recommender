@@ -90,14 +90,14 @@ Inspired by real-world systems used by **Amazon**, **Goodreads**, and **Netflix*
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ml-book-recommender.git
+git clone https://github.com/anoushirazi/ml-book-recommender.git
 cd ml-book-recommender
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run Streamlit app
-streamlit run app/main.py
+streamlit run app/__Streamlit.py__/app.py
 
 ```
 
