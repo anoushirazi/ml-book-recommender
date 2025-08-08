@@ -102,6 +102,8 @@ streamlit run app/main.py
 ```
 
 ## ml-book-recommender/
+
+```bash
 ├── README.md                     # Project overview and usage instructions
 ├── requirements.txt              # Python dependencies
 │
