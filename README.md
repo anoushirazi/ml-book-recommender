@@ -4,7 +4,7 @@
 
 ---
 
-# Introduction
+## ✅Introduction
 
 ![Demo Preview](https://github.com/anoushirazi/ml-book-recommender/raw/main/Demo.gif)
 
