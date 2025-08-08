@@ -85,10 +85,23 @@ Inspired by real-world systems used by **Amazon**, **Goodreads**, and **Netflix*
 
 ---
 
-## 📂 Project Structure
+
+## 🚀 How to Run Locally
 
 ```bash
-ml-book-recommender/
+# Clone repository
+git clone https://github.com/yourusername/ml-book-recommender.git
+cd ml-book-recommender
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Streamlit app
+streamlit run app/main.py
+
+```
+
+## ml-book-recommender/
 ├── README.md                     # Project overview and usage instructions
 ├── requirements.txt              # Python dependencies
 │
@@ -126,21 +139,3 @@ ml-book-recommender/
 └── app/                          # Streamlit application
     ├── main.py
     └── utils.py
-
----
-
-## 🚀 How to Run Locally
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/ml-book-recommender.git
-cd ml-book-recommender
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Launch the Streamlit app
-streamlit run app/main.py
-
----
-
