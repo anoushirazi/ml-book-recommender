@@ -114,6 +114,7 @@ ml-book-recommender/                   # Root project folder
 ├── README.md                          # Project overview and instructions 
 ├── requirements.txt                   # Python dependencies list 
 ├── .gitignore                         #  Git ignore rules 
+├── Demo.gif                           # Demo Preview
 ├── LICENSE                            # Project license 
 
 ├── 📁 data/                          # Data folder 
