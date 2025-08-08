@@ -54,50 +54,6 @@ Inspired by real-world systems used by **Amazon**, **Goodreads**, and **Netflix*
 
 ---
 
-## 📂 Project Structure
-
-```bash
-ml-book-recommender/
-├── README.md                     # Project overview and usage instructions
-├── requirements.txt              # Python dependencies
-│
-├── data/
-│   ├── raw/                      # Original datasets (excluded from Git)
-│   └── processed/                # Cleaned & transformed datasets
-│
-├── notebooks/                    # Jupyter notebooks for each stage
-│   ├── 01_Data_Preprocessing_and_Cleaning.ipynb
-│   ├── 02_Exploratory_Data_Analysis.ipynb
-│   ├── 03_Model_Building_SVD_TFIDF_Popularity.ipynb
-│   ├── 04_Hybrid_Model_and_Evaluation.ipynb
-│   └── 05_Streamlit_App_Development.ipynb
-│
-├── src/                          # Source code
-│   ├── __init__.py
-│   ├── data_utils.py
-│   ├── recommender_svd.py
-│   ├── recommender_content.py
-│   ├── recommender_popularity.py
-│   └── recommender_hybrid.py
-│
-├── models/                       # Saved model artifacts
-│   ├── svd_model.pkl
-│   ├── tfidf_matrix.pkl
-│   └── popularity_scores.pkl
-│
-├── visuals/                      # Generated visualizations & plots
-│   ├── ratings_distribution.png
-│   ├── top_books.png
-│   ├── user_age_distribution.png
-│   ├── heatmap_top_users_books.png
-│   └── pca_user_clusters.png
-│
-└── app/                          # Streamlit application
-    ├── main.py
-    └── utils.py
-
----
-
 ## 📈 Example Visuals
 
 - **Distribution of Ratings** – Understand rating tendencies.
@@ -142,4 +98,49 @@ pip install -r requirements.txt
 # 3. Launch the Streamlit app
 streamlit run app/main.py
 
+---
 
+
+## 📂 Project Structure
+
+```bash
+ml-book-recommender/
+├── README.md                     # Project overview and usage instructions
+├── requirements.txt              # Python dependencies
+│
+├── data/
+│   ├── raw/                      # Original datasets (excluded from Git)
+│   └── processed/                # Cleaned & transformed datasets
+│
+├── notebooks/                    # Jupyter notebooks for each stage
+│   ├── 01_Data_Preprocessing_and_Cleaning.ipynb
+│   ├── 02_Exploratory_Data_Analysis.ipynb
+│   ├── 03_Model_Building_SVD_TFIDF_Popularity.ipynb
+│   ├── 04_Hybrid_Model_and_Evaluation.ipynb
+│   └── 05_Streamlit_App_Development.ipynb
+│
+├── src/                          # Source code
+│   ├── __init__.py
+│   ├── data_utils.py
+│   ├── recommender_svd.py
+│   ├── recommender_content.py
+│   ├── recommender_popularity.py
+│   └── recommender_hybrid.py
+│
+├── models/                       # Saved model artifacts
+│   ├── svd_model.pkl
+│   ├── tfidf_matrix.pkl
+│   └── popularity_scores.pkl
+│
+├── visuals/                      # Generated visualizations & plots
+│   ├── ratings_distribution.png
+│   ├── top_books.png
+│   ├── user_age_distribution.png
+│   ├── heatmap_top_users_books.png
+│   └── pca_user_clusters.png
+│
+└── app/                          # Streamlit application
+    ├── main.py
+    └── utils.py
+
+---
