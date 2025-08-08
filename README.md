@@ -104,41 +104,41 @@ streamlit run app/app.py
 ## 📂 Main Project Structure
 
 ```bash
-ml-book-recommender/                 <!-- Root project folder -->
-├── README.md                       <!-- Project overview and instructions -->
-├── requirements.txt                <!-- Python dependencies list -->
-├── .gitignore                     <!-- Git ignore rules -->
-├── LICENSE                       <!-- Project license -->
+ml-book-recommender/                   # Root project folder 
+├── README.md                          # Project overview and instructions 
+├── requirements.txt                   # Python dependencies list 
+├── .gitignore                         #  Git ignore rules 
+├── LICENSE                            # Project license 
 
-├── 📁 data/                      <!-- Data folder -->
-│   ├── raw/                     <!-- Raw/unprocessed data -->
-│   │   ├── books.csv            <!-- Books dataset -->
-│   │   ├── users.csv            <!-- Users dataset -->
-│   │   └── ratings.csv          <!-- Ratings dataset -->
-│   ├── processed/               <!-- Cleaned/processed data -->
+├── 📁 data/                          # Data folder 
+│   ├── raw/                           # Raw/unprocessed data 
+│   │   ├── books.csv                  #  Books dataset 
+│   │   ├── users.csv                  #  Users dataset 
+│   │   └── ratings.csv                #  Ratings dataset
+│   ├── processed/                     #  Cleaned/processed data 
 │   │   ├── books_cleaned.csv   
 │   │   ├── users_cleaned.csv    
-│   │   └── ratings_filtered.csv 
-│   └── sample/                  <!-- Sample data for quick tests -->
-│       ├── sample_books.csv     
+│   │   └── ratings_filtered.csv  
+│   └── sample/                        # Sample data for quick tests
+│       ├── sample_books.csv      
 │       ├── sample_users.csv     
 │       └── sample_ratings.csv   
 
-├── 📓 notebooks/                <!-- Jupyter notebooks for exploration & modeling -->
+├── 📓 notebooks/                      # Jupyter notebooks for exploration & modeling 
 │   ├── 01_data_exploration.ipynb   
 │   ├── 02_data_preprocessing.ipynb  
 │   ├── 03_model_development.ipynb   
 │   ├── 04_model_evaluation.ipynb    
 │   └── 05_visualization.ipynb       
 
-└── 🏗️ src/                     <!-- Source code folder -->
-    ├── __init__.py             <!-- Package init -->
-    ├── data/                   <!-- Data handling modules -->
+└── 🏗️ src/                            #  Source code folder
+    ├── __init__.py                     #  Package init 
+    ├── data/                           #  Data handling modules 
     │   ├── __init__.py        
-    │   ├── data_loader.py      <!-- Load data scripts -->
-    │   ├── data_cleaner.py     <!-- Cleaning scripts -->
-    │   └── data_preprocessor.py <!-- Preprocessing scripts -->
-    └── models/                 <!-- Model implementations -->
+    │   ├── data_loader.py              #  Load data scripts 
+    │   ├── data_cleaner.py              # Cleaning scripts 
+    │   └── data_preprocessor.py         # Preprocessing scripts
+    └── models/                          #  Model implementations 
         ├── __init__.py        
         ├── collaborative_filtering.py  
         ├── content_based.py    
@@ -146,44 +146,44 @@ ml-book-recommender/                 <!-- Root project folder -->
         └── hybrid_model.py     
 
 <!-- 🚀 Application & Assets -->
-📱 app/                         <!-- Streamlit app folder -->
-├── app.py                      <!-- Main Streamlit app entry -->
-├── components/                 <!-- UI components -->
+📱 app/                                 # Streamlit app folder 
+├── app.py                              # Main Streamlit app entry
+├── components/                         # UI components 
 │   ├── __init__.py             
-│   ├── sidebar.py              <!-- Sidebar component -->
-│   ├── recommendation_display.py  <!-- Show recommendations -->
-│   └── evaluation_display.py   <!-- Show evaluation metrics -->
-└── assets/                     <!-- Static assets -->
-    ├── style.css               <!-- Styling -->
-    └── logo.png                <!-- Logo image -->
+│   ├── sidebar.py                      # Sidebar component 
+│   ├── recommendation_display.py       #  Show recommendations 
+│   └── evaluation_display.py           #  Show evaluation metrics 
+└── assets/                             #  Static assets 
+    ├── style.css                       #  Styling 
+    └── logo.png                        # Logo image 
 
-🤖 models/                      <!-- Saved model files -->
+🤖 models/                             #  Saved model files 
 ├── svd_model.pkl              
 ├── tfidf_vectorizer.pkl       
 └── user_item_matrix.pkl       
 
-📊 plots/                       <!-- Visualization images -->
-├── eda/                       <!-- Exploratory Data Analysis -->
+📊 plots/                              #  Visualization images
+├── eda/                                #  Exploratory Data Analysis 
 │   ├── rating_distribution.png
 │   ├── user_activity.png      
 │   ├── publication_trends.png 
 │   └── age_demographics.png   
-├── model_performance/         <!-- Model evaluation plots -->
+├── model_performance/                 # Model evaluation plots 
 │   ├── rmse_comparison.png    
 │   ├── precision_recall.png   
 │   └── recommendation_accuracy.png
-└── visualizations/            <!-- Other visualizations -->
+└── visualizations/                     # Other visualizations 
     ├── user_book_heatmap.png  
     ├── pca_user_clusters.png  
     └── similarity_matrix.png  
 
-🧪 tests/                      <!-- Unit and integration tests -->
+🧪 tests/                              # Unit and integration tests
 ├── __init__.py               
 ├── test_data_processing.py   
 ├── test_models.py            
 └── test_evaluation.py        
 
-⚙️ config/                     <!-- Configuration files -->
+⚙️ config/                            # Configuration files 
 ├── model_config.yaml          
 ├── data_config.yaml           
 └── app_config.yaml            
