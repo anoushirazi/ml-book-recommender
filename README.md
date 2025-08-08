@@ -76,7 +76,7 @@ Inspired by real-world systems used by **Amazon**, **Goodreads**, and **Netflix*
 
 ---
 
-## 🎯 Why This Project Is a Great Fit for Hiring Managers
+## 🎯 End-to-End Scalable Personalization Showcase
 
 - **End-to-End Solution** – From raw data to a deployed web app  
 - **Scalable Design** – Easily extensible to movies, music, or e-commerce  
