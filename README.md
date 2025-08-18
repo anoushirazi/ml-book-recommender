@@ -6,7 +6,7 @@
 
 ## 🎬 Demo
 
-![Demo Preview](https://github.com/anoushirazi/ml-book-recommender/raw/main/Streamlit Demo.mp4)
+![Demo Preview](https://github.com/anoushirazi/ml-book-recommender/raw/main/Streamlit_Demo.mp4)
 
 ---
 
